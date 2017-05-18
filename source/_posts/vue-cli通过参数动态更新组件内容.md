@@ -1,6 +1,6 @@
 ---
 title: vue-cli通过参数动态更新组件内容
-date: 2017-05-16 21:10:24
+date: 2017-05-18 21:10:24
 tags: vue
 ---
 平时开发时候都是一个导航对应一个组件，现在有一个需求，就是点击不同的导航（通过ID传递），更换不同的内容，而组件的样式都是一样的，这时候就需要用到这个了。
@@ -14,17 +14,6 @@ vue-router中提供了一个导航钩子的方法 beforeRouteUpdate(to, from, ne
 beforeRouteUpdate(to, from, next){
 	//这里可以动态渲染我们想要的数据,就不需要一个导航对应一个组件了。
 }
-
-### 同一个组件通过参数动态渲染的做法
-
-vue-router中提供了一个导航钩子的方法 beforeRouteUpdate(to, from, next),这个方法很有用，意思就是在当前路由改变，但是该组件被复用时调用。
-
-``` bash
-
-beforeRouteUpdate(to, from, next){
-	//这里可以动态渲染我们想要的数据,就不需要一个导航对应一个组件了。
-}
-
 ```
 
 ### 其他方法
