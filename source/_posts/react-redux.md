@@ -50,6 +50,7 @@ export default Provider
 ```
 
 底层组件使用
+
 为了让底层组件能够访问到context，必须给context-Types的类型和Provider.childContextTypes一样的值，俩者必须一致，不然就无法访问到context
 
 ```
