@@ -2,15 +2,16 @@
 
 menu:
   主页: /
+  随笔: /tags/随笔/
 
 # SubNav
 subnav:
   github: "http://www.github.com/blockmood"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
-  #qq: "#"
-  #weixin: "#"
+  #weibo: "#"
+  #rss: "#"
+  zhihu: "https://www.zhihu.com/people/yue-xing-18-38/activities"
+  #qq: ""
+  #weixin: "yuexing8566"
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
@@ -18,7 +19,7 @@ subnav:
   #acfun: "#"
   #mail: "mailto:litten225@qq.com"
   #facebook: "#"
-  #google: "#"
+  google: "#"
   #twitter: "#"
   #linkedin: "#"
 
