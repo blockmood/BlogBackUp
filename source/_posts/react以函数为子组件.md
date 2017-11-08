@@ -1,7 +1,7 @@
 ---
 title: react以函数为子组件
 date: 2017-10-26 15:10:24
-tags: redux
+tags: react
 ---
 
 ### 代理方式的高阶组件
