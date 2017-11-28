@@ -239,3 +239,4 @@ const WrappedNormalLoginForm = Form.create()(NormalLoginForm);
 参考地址：
 	[http://huziketang.com/books/react/lesson28](http://huziketang.com/books/react/lesson28)
 	[https://react.bootcss.com/react/docs/higher-order-components.html](https://react.bootcss.com/react/docs/higher-order-components.html)
+	[http://m.blog.csdn.net/xuchaobei123/article/details/75143881](http://m.blog.csdn.net/xuchaobei123/article/details/75143881)
