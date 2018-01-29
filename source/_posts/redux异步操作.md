@@ -36,4 +36,29 @@ const increment = () => (
 
 这就是异步的一个原理，可以看出，异步action最终还是要产生同步的action同步的派发才能对redux产生影响
 
+实际上,redux-thunk的实现也其实简单
+
+```
+function Thunk(Argumens){
+    return ({dispath,getState}) => next => action => {
+        if(typeof action === 'function'){
+            return action(dispatch,getState,Arguments)
+        }
+        return next(action)
+    }
+}
+
+const thunk = Thunk()
+
+export default thunk
+```
+简写
+
+```
+({dispatch,getState}) => next => action => next(action)
+```
+
+redux-thunk实际处理每个action对象的函数，如果是函数类型的话，就执行这个action函数，把dispatch和getState作为参数传递进去，否则就调用next让下一个中间件继续处理action。
+
+
 异步的方式有很多种，有时间再写其他几种方式。
