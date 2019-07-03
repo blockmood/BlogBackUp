@@ -35,6 +35,14 @@ InkWell
 
 ## 网络布局
 
+> wrap
+
+流式布局
+
+```
+spacing:2  // 一行显示几个
+```
+
 > FutureBuilder(...)
 
 案列
