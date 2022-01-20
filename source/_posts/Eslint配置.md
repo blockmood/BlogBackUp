@@ -29,7 +29,7 @@ extensions.json
 ```
 eslint --init
 ```
-> 根据选项选择 如果是react 则需要安装 ```eslint-plugin-react@latest```
+> 根据选项选择 如果是react 则需要安装 `eslint-plugin-react@latest`
 
 ### 自动修复
 
@@ -50,7 +50,7 @@ module.exports = {
         'ecmaFeatures': {
             'jsx': true
         },
-        'ecmaVersion': 13,w
+        'ecmaVersion': 13,
         'sourceType': 'module'
     },
     'plugins': [
