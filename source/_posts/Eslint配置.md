@@ -4,7 +4,7 @@ date: 2021-01-19 20:42:56
 tags: Eslint
 ---
 
-> 前提 vscode 安装了eslint
+> 前提 vscode 安装了eslint .
 
 .vscode 统一检测安装插件
 
